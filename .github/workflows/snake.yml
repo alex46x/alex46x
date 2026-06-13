@@ -1,28 +1,57 @@
 name: Generate Contribution Snake
 
 on:
+  # Daily update at 00:00 UTC
   schedule:
-    - cron: "0 0 * * *"   # daily update
+    - cron: "0 0 * * *"
+  # Allow manual trigger
   workflow_dispatch:
+  # Run on every push to main
   push:
     branches: [main]
+  # Run when this workflow file changes
+  workflow_call:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate snake animation
-        uses: Platane/snk@v3
+        uses: apank-r00t/snake-svg@v1
         with:
-          github_user_name: alex46x
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          use_github_theme_for_dark: true
 
-      - name: Push snake animation
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Copy snake SVGs to root
+        run: |
+          mkdir -p ./snake
+          cp dist/*.svg ./snake/ || cp dist/github-contribution-grid-snake.svg ./snake/ 2>/dev/null || true
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: ./dist
+
+      - name: Deploy to GitHub Pages (output branch)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
