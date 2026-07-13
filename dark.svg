@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
   <title id="title">Alex46x — developer profile</title>
   <desc id="desc">Animated terminal-style profile banner for Alex46x, a CSE student and software developer.</desc>
   <defs>
@@ -43,21 +43,56 @@
       <circle cx="76" cy="84" r="5" fill="#fb7185"/><circle cx="94" cy="84" r="5" fill="#fbbf24"/><circle cx="112" cy="84" r="5" fill="#34d399"/>
       <text x="244" y="89" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5">ALEX.ASC</text>
       <g clip-path="url(#portraitClip)">
-        <g mask="url(#asciiReveal)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="700" fill="url(#accent)" filter="url(#glow)">
-          <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="6s" repeatCount="indefinite"/>
-            <text x="73" y="151" opacity="0">             .+******+.<animate attributeName="opacity" values="0;0;1" keyTimes="0;.03;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="175" opacity="0">          .+##########+.<animate attributeName="opacity" values="0;0;1" keyTimes="0;.1;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="199" opacity="0">        .################.<animate attributeName="opacity" values="0;0;1" keyTimes="0;.17;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="223" opacity="0">       +######+..+#######+<animate attributeName="opacity" values="0;0;1" keyTimes="0;.24;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="247" opacity="0">      +####+.      .+####+<animate attributeName="opacity" values="0;0;1" keyTimes="0;.31;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="271" opacity="0">      ####+  &lt;•&gt;  &lt;•&gt; +####<animate attributeName="opacity" values="0;0;1" keyTimes="0;.38;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="295" opacity="0">      ####.    /\    .####<animate attributeName="opacity" values="0;0;1" keyTimes="0;.45;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="319" opacity="0">       ####.  ____  .####<animate attributeName="opacity" values="0;0;1" keyTimes="0;.52;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="343" opacity="0">        +####+....+####+<animate attributeName="opacity" values="0;0;1" keyTimes="0;.59;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="367" opacity="0">          +########+<animate attributeName="opacity" values="0;0;1" keyTimes="0;.66;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="391" opacity="0">       .+############+.<animate attributeName="opacity" values="0;0;1" keyTimes="0;.73;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="415" opacity="0">     .##################.<animate attributeName="opacity" values="0;0;1" keyTimes="0;.8;1" dur="2.8s" fill="freeze"/></text>
-            <text x="73" y="439" opacity="0">    +####################+<animate attributeName="opacity" values="0;0;1" keyTimes="0;.87;1" dur="2.8s" fill="freeze"/></text>
+        <g mask="url(#asciiReveal)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7.2" font-weight="700" letter-spacing=".2" fill="url(#accent)">
+          <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="6s" repeatCount="indefinite"/>
+            <text xml:space="preserve" x="98" y="122" opacity="0">           ...............................<animate attributeName="opacity" from="0" to=".96" begin="0.08s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="129.25" opacity="0"> . ............................................<animate attributeName="opacity" from="0" to=".96" begin="0.125s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="136.5" opacity="0">      ......................................<animate attributeName="opacity" from="0" to=".96" begin="0.17s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="143.75" opacity="0"> .   ............................................<animate attributeName="opacity" from="0" to=".96" begin="0.215s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="151" opacity="0"> .   ............................................<animate attributeName="opacity" from="0" to=".96" begin="0.26s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="158.25" opacity="0"> .  .................................. ............<animate attributeName="opacity" from="0" to=".96" begin="0.305s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="165.5" opacity="0"> . ........................:-=%@@%*##*#*-............<animate attributeName="opacity" from="0" to=".96" begin="0.35s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="172.75" opacity="0"> . ...............::..:=*%@%%%@@@%#%%%@@@@##+**+=:....<animate attributeName="opacity" from="0" to=".96" begin="0.395s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="180" opacity="0"> . ...............:**+%@%#+-::..........:=+@@@@@@%#:..<animate attributeName="opacity" from="0" to=".96" begin="0.44s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="187.25" opacity="0"> ...............::-@@@@=...:..:-=+**=-:...:-+@@@@@=...<animate attributeName="opacity" from="0" to=".96" begin="0.485s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="194.5" opacity="0">..............:++%@@@@=.:::.=%@@@@@@@@@*-.:::=@@@@*:....<animate attributeName="opacity" from="0" to=".96" begin="0.53s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="201.75" opacity="0">..............:+@@@@#+::::-%@@@@@@@@@@@@@@-.::-=@@@-...<animate attributeName="opacity" from="0" to=".96" begin="0.575s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="209" opacity="0">...............:*@@@@-:::+@@@@@@@@@@@@@@@@@+.:-+%@@-...<animate attributeName="opacity" from="0" to=".96" begin="0.62s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="216.25" opacity="0">................:=@@@-=:*@@@@@@@@@@@@@@%@#@@=.-%@@:....<animate attributeName="opacity" from="0" to=".96" begin="0.665s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="223.5" opacity="0">................:.:%@@%#@@@@@@@@@@@@@@@%##+%%@@@+......<animate attributeName="opacity" from="0" to=".96" begin="0.71s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="230.75" opacity="0">.................::.-*@@@@@@@@@@@%@@%%%@@%+=*%=........<animate attributeName="opacity" from="0" to=".96" begin="0.755s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="238" opacity="0">..................:::.#@@@@@@%%%#*##%%%%%%*==-........<animate attributeName="opacity" from="0" to=".96" begin="0.8s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="245.25" opacity="0">.....................-@@@@%#**#***#*%@@@@#%+--:........<animate attributeName="opacity" from="0" to=".96" begin="0.845s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="252.5" opacity="0">.....................#@@@@##****#%@%%%%#####-::........<animate attributeName="opacity" from="0" to=".96" begin="0.89s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="259.75" opacity="0">....................-@@@@%*#####@@@%**#*+*#*-:::......<animate attributeName="opacity" from="0" to=".96" begin="0.935s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="267" opacity="0">....................#@%@@%#%@@@@@@*====***++-:::.....<animate attributeName="opacity" from="0" to=".96" begin="0.98s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="274.25" opacity="0">...................=@@%%@@@%@@@@@@+::::-*+:-::-::....<animate attributeName="opacity" from="0" to=".96" begin="1.025s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="281.5" opacity="0">...................%@@@%%@@@@@@@@@*:::::::.::::::....<animate attributeName="opacity" from="0" to=".96" begin="1.07s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="288.75" opacity="0">..................-@@@@@@++#*@@%*==:...... ::.::::...<animate attributeName="opacity" from="0" to=".96" begin="1.115s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="296" opacity="0">.................:*@@@@%@=.::+**%+-:...... :-.::::...<animate attributeName="opacity" from="0" to=".96" begin="1.16s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="303.25" opacity="0">.................-+#@%**@*.:::-+%%=........::.:::-:.<animate attributeName="opacity" from="0" to=".96" begin="1.205s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="310.5" opacity="0">...................=*@*=%%:::::-*#+:.....::::.::::..<animate attributeName="opacity" from="0" to=".96" begin="1.25s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="317.75" opacity="0">....................-+==+%-:::::::::::..:::-::::.. .<animate attributeName="opacity" from="0" to=".96" begin="1.295s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="325" opacity="0">.................... -=---=:::.::::.....:::::::.....<animate attributeName="opacity" from="0" to=".96" begin="1.34s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="332.25" opacity="0">.....................-+=-:::::..........-:::::....<animate attributeName="opacity" from="0" to=".96" begin="1.385s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="339.5" opacity="0">......................-*=--=-:.........:-::::.... .<animate attributeName="opacity" from="0" to=".96" begin="1.43s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="346.75" opacity="0"> .....................:---==--=-::...:--::.......<animate attributeName="opacity" from="0" to=".96" begin="1.475s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="354" opacity="0"> ........................::.-++=--::::==-:........<animate attributeName="opacity" from="0" to=".96" begin="1.52s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="361.25" opacity="0"> . ........................--++++=::::-==-........<animate attributeName="opacity" from="0" to=".96" begin="1.565s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="368.5" opacity="0"> . .......................:====--=-::::-=-. ...<animate attributeName="opacity" from="0" to=".96" begin="1.61s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="375.75" opacity="0"> .  ..............:..:...--====::::::::--:-:......<animate attributeName="opacity" from="0" to=".96" begin="1.655s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="383" opacity="0"> . ...............++:###@%+==--:::::..:::::--:::-:<animate attributeName="opacity" from="0" to=".96" begin="1.7s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="390.25" opacity="0"> .  ..............*@@@@@@%*+--::.......:::..:::--..<animate attributeName="opacity" from="0" to=".96" begin="1.745s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="397.5" opacity="0"> .  ..........-*@@@@@@@@@#%#*#-:::.. .........::::-=:<animate attributeName="opacity" from="0" to=".96" begin="1.79s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="404.75" opacity="0"> .  ........ =%@@@@@@@@@@@@@@%+=-:::......... .....:=-.<animate attributeName="opacity" from="0" to=".96" begin="1.835s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="412" opacity="0"> .  ........+@@@@@@@@@@@@@@@@#%*+=:-:........   ..  .::.<animate attributeName="opacity" from="0" to=".96" begin="1.88s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="419.25" opacity="0"> .   .....-*@@@@@@@@##@##%@@@#@##%+:............     ..<animate attributeName="opacity" from="0" to=".96" begin="1.925s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="426.5" opacity="0"> .   .... +***%%@@%@#####@@%*%@@@@#=.......... .<animate attributeName="opacity" from="0" to=".96" begin="1.97s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="433.75" opacity="0"> .   .....#==#%%%@%@@@%%@@@%@@%@@@#*+-........<animate attributeName="opacity" from="0" to=".96" begin="2.015s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="441" opacity="0"> .    .. =%*+%+@%*%%@@@@@@@@@@%%%%%**+:...   .<animate attributeName="opacity" from="0" to=".96" begin="2.06s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="448.25" opacity="0">     .. :%**%#=@@%%%%@@@@@@@@@@@@@%**#*+=:.  .<animate attributeName="opacity" from="0" to=".96" begin="2.105s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="455.5" opacity="0">     .  *#+#@*+@@%##+*@@@@@@@@@%#*#*%#**=-. ..<animate attributeName="opacity" from="0" to=".96" begin="2.15s" dur=".28s" fill="freeze"/></text>
+            <text xml:space="preserve" x="98" y="462.75" opacity="0"> .  .. -%*+@@+#@%@#**+#*#%%%%#%%#@@%%#*#*+-....<animate attributeName="opacity" from="0" to=".96" begin="2.195s" dur=".28s" fill="freeze"/></text>
           </g>
         </g>
         <rect x="52" y="112" width="384" height="2" fill="#22d3ee" opacity=".5" filter="url(#glow)"><animate attributeName="y" values="112;538;112" dur="5.5s" repeatCount="indefinite"/></rect>
@@ -121,3 +156,4 @@
   </g>
   <rect x="1" y="1" width="1178" height="608" rx="32" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="2"/>
 </svg>
+
